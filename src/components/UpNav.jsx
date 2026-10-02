@@ -10,16 +10,16 @@ const UpNav = () => {
     <div>
       <Navbar>
       <NavbarBrand>
-        <span className="whitespace-nowrap text-2xl font-semibold text-blue-400">Aye Thazin Oo</span>
+        <span className="whitespace-nowrap text-2xl font-semibold text-white" onClick={() => navigate('/')}>Aye Thazin Oo</span>
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
-          <NavbarLink className='!text-blue-400 !font-semibold' onClick={() => navigate('/')}>Home</NavbarLink>
-          <NavbarLink className='!text-blue-400 !font-semibold' onClick={() => navigate('/about')}>About</NavbarLink>
-          <NavbarLink className='!text-blue-400 !font-semibold' onClick={() => navigate('/skill')}>Skill</NavbarLink>
-          <NavbarLink className='!text-blue-400 !font-semibold' onClick={() => navigate('/project')}>Projects</NavbarLink>
-          <NavbarLink className='!text-blue-400 !font-semibold' onClick={() => navigate('/experience')}>Experience</NavbarLink>
-          <NavbarLink className='!text-blue-400 !font-semibold' onClick={() => navigate('/contact')}>Contact</NavbarLink>
+          <NavbarLink className='!text-white !font-semibold text-xl' onClick={() => navigate('/')}>Home</NavbarLink>
+          <NavbarLink className='!text-white !font-semibold text-xl' onClick={() => navigate('/about')}>About</NavbarLink>
+          <NavbarLink className='!text-white !font-semibold text-xl' onClick={() => navigate('/skill')}>Skill</NavbarLink>
+          <NavbarLink className='!text-white !font-semibold text-xl' onClick={() => navigate('/project')}>Projects</NavbarLink>
+          <NavbarLink className='!text-white !font-semibold text-xl' onClick={() => navigate('/experience')}>Experience</NavbarLink>
+          <NavbarLink className='!text-white !font-semibold text-xl' onClick={() => navigate('/contact')}>Contact</NavbarLink>
       </NavbarCollapse>
       
     </Navbar>
